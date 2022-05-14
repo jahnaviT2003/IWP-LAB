@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>20BAI1150-JAHNAVI THONDEPU</title>
+    </head>
+    <body>
+        <h1>WELCOME USER!!</h1>
+        <h2>20BAI1150, JAHNAVI THONDEPU</h2>
+        <form name="F1">
+            Enter your Registration Number : <input type="text" id="t1" name="regno"><br><br>
+            <input type="button"value="CLICK BUTTON" onclick="RegNo()"><br><br>
+        </form>
+        <script>
+            function RegNo(){
+            var reg_no = document.F1.regno.value;
+            document.write('<div style="width: 140px; height: 40px; border: 10px solid red; padding-left:50px; font-size: 20px"><b>'+reg_no+'</b></div>');
+            }
+        </script>
+    </body>
+</html>

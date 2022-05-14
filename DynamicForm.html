@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>20BAI1150-JAHNAVI THONDEPU</title>
+</head>
+<body>
+<div id="myform">
+<h2><b>DYNAMIC TABLE CREATION</b></h2>
+<label for = "name">Name :</label>
+<input type="text" id="name"><br><br><br>
+<label for = "address">Address :</label>
+<input type="text" id="address"><br><br>
+<input type="button" id="add" value="Add New Row" onclick="Javascript:addRow()">&ensp;&ensp;
+<input type="button" onclick="myDeleteFunction()" value="Delete Existing Row"><br><br>
+<div id="mydata">
+<b>TABLE CONTENTS</b><br><br>
+<table id="table_data"  border="3" cellpadding="2">
+<tr>
+<td><b>Name</b></td>
+<td><b>Address</b></td>
+</tr>
+</table>
+</div>
+<br>
+<br>
+<script>
+function addRow() {
+          
+    var Name = document.getElementById("name");
+    var Address = document.getElementById("address");
+    var table = document.getElementById("table_data");
+ 
+    var rowCount = table.rows.length;
+    var row = table.insertRow(rowCount);
+ 
+    row.insertCell(0).innerHTML= Name.value;
+    row.insertCell(1).innerHTML= Address.value;
+ 
+}
+function myDeleteFunction() {
+m=prompt("Enter row number which you want to delete?");
+document.getElementById("table_data").deleteRow(m);
+n=n-1;
+}
+const btn = document.createElement("button");
+btn.innerHTML = "Hello Button";
+btn.setAttribute("style","background-color:Red")
+btn.setAttribute("onmouseover","changebcolor(this)");
+document.body.appendChild(btn);
+for(var i=0;i<2;i++)
+{
+const lineBreak=document.createElement('br');
+document.body.appendChild(lineBreak);
+}
+var txt=document.createElement("input");
+txt.setAttribute("type","text");
+txt.setAttribute("style","background-color:Green");
+txt.setAttribute("onfocus","changecolor(this)");
+document.body.appendChild(txt);
+function changebcolor(button)
+{
+button.setAttribute("style","background-color:Green")
+}
+function changecolor(text)
+{
+text.setAttribute("style","background-color:Yellow")
+text.setAttribute("value","Hello!!, Good Morning")
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurants>
+<restaurant name="La Pasteria">
+<address>13 Alonisou Street, Patras, 261 35 </address>
+<cuisine>Italian</cuisine>
+<phoneno>2610325833</phoneno>
+</restaurant>
+<restaurant name="Kalamarakia">
+<address>21 Poseidonos Street, Patras, 264 45 </address>
+<cuisine>Greek</cuisine>
+<phoneno>2610428066</phoneno>
+</restaurant>
+</restaurants>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>20BAI1150-JAHNAVI THONDEPU</title>
+<head>
+<body>
+<style>
+table.test_table{
+	border-collapse: collapse;
+	table-layout: auto;
+	width: 30%; 
+}
+</style>
+<i><h4 text-align: center>A test table with merged cells</h4></i>
+<table class="test_table" border="5" bgcolor=#20BAI1150>
+<TR>
+	<TH rowspan=2><a href="genderequality_20BAI1150.html">Gender</a></TH>
+	<TH colspan=2>Average</TH>
+	<TH rowspan=2>Red<br>Eyes</TH>
+</TR>
+<TR>
+	<TH>Height</TH>
+	<TH>Weight</TH>
+</TR>
+<TR>
+	<TH>Males</TH>
+	<TD>1.9</TD>
+	<TD>0.003</TD>
+	<TD>40&#37 </TD>
+</TR>
+<TR>
+	<TH>Females</TH>
+	<TD>1.7</TD>
+	<TD>0.002</TD>
+	<TD>43&#37 </TD>
+</table>
+</body>
+</html>

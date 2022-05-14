@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>20BAI1150-JAHNAVI THONDEPU</title>
+  <script src="JSFormValidation_20BAI1150.js"></script>
+  <style>
+.required {  
+   color: red;
+}
+ 
+.errorMsg {  
+   color: red;
+}
+ 
+.errorBox {  
+   border: 2px solid red;
+}
+.time {
+	border: 2px solid black;
+	display: inline-block;
+	font-size: 20px;
+}
+ 
+table {
+   border: 3px solid black;
+}
+ 
+td {
+   margin: 0;
+   padding: 3px 10px;
+}
+
+  </style>
+</head>
+ 
+<body>
+ 
+  <form id="formTest" method="get" action="processData">
+    <table>
+	<tr>
+	<td><h2>Test JavaScript Form Validation</h2></td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td class = "time" id = "demo">Time:&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtName">Name<span class="required">*</span></label></td>
+      <td><input type="text" id="txtName" name="name"></td>
+      <td id="elmNameError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtAddress">Address</label></td>
+      <td><input type="text" id="txtAddress" name="address"></td>
+      <td id="elmAddressError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtZipcode">Zip Code<span class="required">*</span></label></td>
+      <td><input type="text" id="txtZipcode" name="zipcode"></td>
+      <td id="elmZipcodeError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td>Country<span class="required">*</span></td>
+      <td><select id="selCountry" name="country">
+            <option value="" selected>---SELECT COUNTRY---</option>
+            <option value="brazil">Brazil</option>
+            <option value="india">India</option>
+            <option value="egypt">Egypt</option>
+			<option value="us">USA</option>
+          </select></td>
+      <td id="elmCountryError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td>Gender<span class="required">*</span></td>
+      <td><label><input type="radio" name="gender" value="m">Male</label>
+          <label><input type="radio" name="gender" value="f">Female</label></td>
+      <td id="elmGenderError" class="errorMsg">&nbsp;</td>
+	  <td><label for = "txtpan">Pan No:</label></td>
+	  <td><input type="text" id="txtpan" name="pan"></td>
+	  <td id="elmPanError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td>Preferences<span class="required">*</span></td>
+      <td><label><input type="checkbox" name="color" value="r">Red</label>
+          <label><input type="checkbox" name="color" value="g">Green</label>
+          <label><input type="checkbox" name="color" value="b">Blue</label></td>
+      <td id="elmColorError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtPhone">Phone<span class="required">*</span></label></td>
+      <td><input type="text" id="txtPhone" name="phone"></td>
+      <td id="elmPhoneError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtEmail">Email<span class="required">*</span></label></td>
+      <td><input type="text" id="txtEmail" name="email"></td>
+      <td id="elmEmailError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtPassword">Password (6-8 characters)<span class="required">*</span></label></td>
+      <td><input type="password" id="txtPassword" name="password"></td>
+      <td id="elmPasswordError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td><label for="txtPWVerified">Verify Password<span class="required">*</span></label></td>
+      <td><input type="password" id="txtPWVerified" name="pwVerified"></td>
+      <td id="elmPWVerifiedError" class="errorMsg">&nbsp;</td></tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" value="SEND" id="btnSubmit">&nbsp;
+          <input type="reset" value="CLEAR" id="btnReset"></td>
+      <td>&nbsp;</td></tr>
+    </table>
+  </form>
+</body>
+</html>

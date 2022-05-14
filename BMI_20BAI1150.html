@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>20BAI1150-JAHNAVI THONDEPU</title>
+        <script>
+		function BMI_Calc()
+		{
+			wgt = (parseFloat(document.bmi_form.weight.value));
+			Hgt = (parseFloat(document.bmi_form.feet.value)*12) + (parseFloat(document.bmi_form.inches.value));
+			Hgt = Math.pow(Hgt,2);
+			const BMI = (parseFloat(703*(wgt/Hgt)));
+			document.bmi_form.bmi.value = BMI;
+			var Gender;
+			Gender = document.bmi_form.gender.value;
+			
+			if(Gender == "Male")
+			{
+			if(BMI < 17.50) 
+			{
+				alert("Anorexia");
+			}
+			else if (BMI >= 17.51 && BMI <= 19.10)
+			{
+				alert("Underweight");
+			}
+			else if (BMI >= 19.11 && BMI <= 25.80)
+			{
+				alert("Ideal range");
+			}
+			else if (BMI >= 25.81 && BMI <= 27.30)
+			{
+				alert("Marginally Overweight Range");
+			}
+			else if (BMI >= 27.31 && BMI <= 32.30)
+			{
+				alert("Overweight Range");
+			}
+			else 
+			{
+				alert("Very Overweight or Obese Range");
+			}
+			
+			}
+			else
+			{
+			if(BMI < 17.50) 
+			{
+				alert("Anorexia");
+			}
+			else if (BMI >= 17.501 && BMI <= 20.70)
+			{
+				alert("Underweight");
+			}
+			else if (BMI >= 20.71 && BMI <= 26.40)
+			{
+				alert("Ideal range");
+			}
+			else if (BMI >= 26.41 && BMI <= 27.80)
+			{
+				alert("Marginally Overweight Range");
+			}
+			else if (BMI >= 27.81 && BMI <= 31.10)
+			{
+				alert("Overweight Range");
+			}
+			else 
+			{
+				alert("Very Overweight or Obese Range");
+			}
+			
+			}
+		}
+		
+		</script>
+	</head>
+	<body>
+	<h1>20BAI1150, BMI CALCULATOR</h1>
+		<table border="3" width="300">
+		<form name="bmi_form">
+			<tr><th colspan=2>
+			<label for = "gender">BMI Calculator</label>
+			<select name="gender" id="gender">
+			<option value="" selected="selected" disabled="disabled">--Select Gender--
+			​<option>Male
+			<option>Female
+			</select>
+			</th></tr>
+			<tr><th colspan=2 align="left">
+			<label for="weight">Enter Your Weight:</label><br>&#40;in pounds&#41;
+			<input type="text" id="weight">
+			</th></tr>
+			<tr><th colspan=2 align="left">
+			<label>Enter Your Height:</label><br>
+			(feet)<input type="text" id="feet"><br><br>
+			(inches)<input type="text" id="inches">
+			</th></tr>
+			<tr><th colspan=2>
+			<input type="button" name="clickbtn" value="Calculate" onclick="BMI_Calc()">
+			</th></tr>
+			<tr><th><label for="bmi">YOUR<br>BMI</label></th><th><input type="text" id="bmi"></th></tr>
+		</form>	
+		</table>
+	</body>
+</html>

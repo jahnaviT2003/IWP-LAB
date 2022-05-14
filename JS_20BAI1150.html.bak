@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>20BAI1150-JAHNAVI THONDEPU</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+$("button").click(function () {
+$("#SSS").animate({
+opacity: 0.75,
+fontSize: "100px",
+}, 1000);
+});
+});
+</script>
+<script>
+$(document).ready(function () {
+$("button").click(function () {
+$("button").add("<p>Virat Kohli is the best cricketer of all time. He is king of IPL and kind of cricket forever.</p>").appendTo(document.body);
+});
+});
+</script>
+<script>
+function blink_text() {
+$('.blink').fadeOut(500);
+$('.blink').fadeIn(500);
+}
+setInterval(blink_text, 1000);
+</script>
+</head>
+<body>
+<h1>Form input</h1>
+<input type="text" id="input-1" onkeyup="submitChange();" />
+<input type="text" id="input-2" onkeyup="submitChange();" />
+<input type="submit" id="submit" style="display: none;" />
+<script type="text/javascript">
+inputOne = document.getElementById("input-1"); 
+inputTwo = document.getElementById("input-2"); 
+inputSubmit = document.getElementById("submit"); 
+function submitChange()
+{
+if(inputOne.value == "" || inputTwo.value == "")
+{
+inputSubmit.style.display = "none";
+}
+else
+{
+inputSubmit.style.display = "block";
+}
+}
+</script>
+<h2>VIRAT KOHLI-CHEEKU</h2>
+<button id="button" name="button">Click Here!</button>
+<script>
+$(document).ready(function () {
+$("button").click(function () {
+$("button").add("<p>Best of luck for your future offline FATS</p>").appendTo(document.body);
+});
+});
+</script>
+<script>
+$("body"). css("background-color","#ADD8E6");
+</script>
+<h1 class="blink">VAMI VIRAT CRICKET MAD</h1>
+<p id="SSS">BCCI</p>
+<button id="button" name="button">Click Here!</button>
+</body>
+</html>
+
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>20BAI1150-JAHNAVI THONDEPU</title>
+<script>
+function bankAcct(){
+var balance;
+var withdraw;
+balance = parseInt(document.bank_form.bal.value);
+withdraw = paseInt(document.bank_form.wt.value);
+const amt= (parseInt(balance) - parseInt(withdraw));
+try
+{
+if ( balance >= withdraw )
+{
+alert("Amount withdrawn Successfully");
+}
+else{
+throw "Amount Withdrawal Failure";
+}
+}
+catch(err)
+{
+alert(err);
+}
+}
+</script>
+<style>
+table {
+   border: 3px solid black;
+}
+
+td{
+margin: 0;
+}
+</style>
+</head>
+<body>
+<form name="bank_form">
+<table>
+<tr>
+<td><h2><b>SBI NET BANKING</b></h2></td>
+</tr>
+<tr>
+<td><label for = "name">Name : </label></td>
+<td><input type="text" id="name"></td>
+</tr>
+<tr>
+<td><label for = "acct_no">Account Number : </label></td>
+<td><input type="text" id="acct_no"></td>
+</tr>
+<tr>
+<td><label for = "bal">Balance Amount : </label></td>
+<td><input type="text" id="bal"></td>
+</tr>
+<tr>
+<td><label for = "wt">Amount to be withdrawn : </label></td>
+<td><input type="text" id="wt"></td>
+</tr>
+<tr>
+<td><input type="submit" value="Click to WITHDRAW" onclick="bankAcct()"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

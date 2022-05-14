@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+label{
+	  width: 4000px;
+	  display: inline-block;
+}
+fieldset{
+	    width: 700px;
+}
+</style>
+<title>20BAI1120</title>
+</head>
+<body>
+<h2 style="color:Blue">Bank Transactions</h2>
+<br><br>
+<fieldset>
+		<h3 style="font-size:22; color:Red"><u>Bank Details:</u></h3>
+		<label style="padding-left:40px;">
+			Account Balance : <input id="abal">
+			<br><br>
+			Enter Withdrawal Amount: <input id="amo">
+		</label>
+</fieldset><br>
+<button onclick="check()">Withdraw</button>
+<script>
+function check(){
+	var t = 129000;
+	var x = parseInt(document.getElementById("amo").value);
+	try{
+		if(t>=x){
+			document.getElementById("abal").value=(t-x);
+			alert("Amount Withdrawal Successful");
+		}
+		else{
+			throw "Amount Withdrawal Failure";
+		}
+		}catch(e){
+			alert(e);
+		}
+	}
+</script>
+</body>
+</html>

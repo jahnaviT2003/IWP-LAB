@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title>20BAI1150-JAHNAVI THONDEPU</title>
+<meta charset="UTF-8"> 
+<meta http-equiv="X-UA-Compatible" 
+content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="style1.css"> 
+</head> 
+<body> 
+<div class="intro"> 
+<h1 color="#fffafa">MY FAVOURITE RECIPE IS GAJAR KA HALWA</h1> 
+<p> 
+Gajar ka halwa, also known as gajorer halua, gajrela, gajar pak, and carrot halwa is a carrot-based sweet dessert pudding from the Indian subcontinent. It is made by placing grated carrots in a pot containing a specific amount of water, milk and sugar, cardamom and then cooking while stirring regularly. It is often served with a garnish of almonds and pistachios.[5] The nuts and other items used are first sautéed in ghee, a type of clarified butter from the Indian subcontinent.
+
+The dessert is traditionally eaten during all of the festivals in India, mainly on the occasion of Diwali, Holi, Eid al-Fitr and Raksha Bandhan. It is served hot during the winter.
+Gajar ka halwa is a combination of nuts, milk, sugar, khoya and ghee with grated carrot. It is a light nutritious dessert with less fat (a minimum of 10.03% and an average of 12.19%) than many other typical sweet from the Indian subcontinent. Gajar halwa has a medium shelf life so it is now sometimes exported.
+
+At festival time many people prefer vegetarian dishes as well as desserts in their Thali. Because of its low fat content, vegetarian characteristics, ease of making, medium shelf-life and taste Gajar ka halwa is a popular dessert all over India and often served at most festivals. The dish is popular among adults as well as children. In 300 grams of gajar halwa there are 268 calories (76 come from fat, 180 from carbohydrate and 16 from protein)
+</p> 
+</div> 
+<img class="halwa" src="C:\Users\91630\OneDrive - vit.ac.in\Pictures\Saved Pictures\halwa.jpg" alt="Image of halwa"> 
+<br> 
+<button class="button1" type="button" onclick="recipe2_20BAI1150.html">Click for procedure!</button>
+
+<i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+</body>
+</html>

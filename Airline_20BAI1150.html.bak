@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>20BAI1150-JAHNAVI THONDEPU</title>
+        <script>
+		function Airlines()
+		{
+			var arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+			var passenger_name = document.airline_form.name.value; 
+			var i=0;
+			var j=5;
+			var seat_number;  
+			var class_type = parseInt(document.airline_form.choice.value); 
+			if(class_type == 2){ 
+				arr[j]=1; 
+				j++; 
+				seat_number=j; 
+			} 
+			else{ 
+				if(i >= 5){ 
+					var x = confirm("All first class tickets are booked. Do you want to book an economy class ticket?"); 
+					if(x == true){ 
+					arr[j]=1; 
+					j++; 
+					seat_number=j; 
+			} 
+			else{ 
+				alert("Sorry we could not find you a booking. Good luck for other attempts!"); 
+				} 
+			} 
+		else{ 
+			arr[i]=1; 
+			i++; 
+			seat_number = i; 
+			} 
+		} 
+		document.write('<table border="3" bgcolor="yellow">');
+		document.write('<br><tr bgcolor= "yellow"><th><span style="color:blue; font-size: 25px"><b>AIRLINES</b><br></span><br><b>Your Ticket has been successfully generated!!</b><br><b>Name: '+passenger_name+"</b><br><b>Seat number: "+seat_number+"<b><br><b>Class: Type "+class_type+"</b><br><br><center>Thank you!!<br>HAVE A NICE TRIP!!</center></th></tr>"); 
+		document.write('</table>');
+		} 
+		</script>
+	</head>
+	<body>
+	<h1>WELCOME TO AIRLINES RESERVATIONS SYSTEM</h1>
+	<li  style=" color: green; padding-left: 20px; font-size:30px"><span style="color:red; font-size: 30px"><b>Choose type 1 for a seat in the First-Class section.</b></span></li><br>
+	<li  style=" color: blue; padding-left: 20px; font-size:30px"><span style="color:orange; font-size: 30px"><b>Choose type 2 for a seat in the Economy section.</b></span></li><br><br>
+	<form name="airline_form">
+	<label for="name"><b>Name:<b></label> 
+	<input type="text" name="name" id="name"><br><br>
+	<label for="choice"><b>Select your Seat Class type:</b></label> 
+	<select id="choice"> 
+	<option value="" selected="selected" disabled="disabled">--Select Choice--
+	<option>1</option> 
+	<option>2</option> 
+	</select><br><br> 
+	<input type="submit" value="Display My Ticket" onclick="Airlines()"> 
+	</form>
+	</body>
+</html>

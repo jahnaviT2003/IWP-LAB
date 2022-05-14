@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>20BAI1150-JAHNAVI THONDEPU</title>
+</head>
+<body>
+<img alt="MYSPACE" src = "C:\Users\91630\OneDrive - vit.ac.in\Pictures\Saved Pictures\solar_system.jpeg" align="left" width="630" height="352" usemap = "#imgmap">
+<map name="imgmap">
+	<area shape="rectangle" Coords="2,1,157,26" alt="MySpace" Href="" title="20BAI1150-JAHNAVI THONDEPU">
+	<area shape="circle" Coords="64,278,90" alt="Sun" Href="#" title="Ball of Fire">
+	<area shape="circle" Coords="172,184,20" alt="Venus" Href="#" title="Morning Star">
+	<area shape="circle" Coords="273,249,30" alt="Earth" Href="earth_20BAI1150.html" title="Blue planet">
+	<area shape="circle" Coords="386,179,40" alt="Jupiter" Href="#" title="Largest Planet">
+	<area shape="circle" Coords="481,275,20" alt="Saturn" Href="#" title="Ring Planet">
+	<area shape="circle" Coords="583,55,10" alt="Pluto" Href="#" title="Dwarf Planet">
+	<area shape="circle" Coords="485,96,30" alt="Uranus" Href="#" title="Father of Saturn">
+	<area shape="circle" Coords="565,141,20" alt="Neptune" Href="#" title="Roman god of Sea">
+	<area shape="circle" Coords="191,279,20" alt="Mercury" Href="#" title="Fastest Planet">
+	<area shape="circle" Coords="284,145,30" alt="Mars" Href="#" title="Red Planet">
+</map>
+</body>
+</html>

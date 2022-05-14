@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>20BAI1150-JAHNAVI THONDEPU</title>
+    <link rel="stylesheet" href="myphoto.css">
+    <style>
+     img .myphoto{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+
+  fig {
+      text-align: center;
+  }
+
+  span::before {
+    content: "SID SRIRAM";
+    animation: animate infinite 3s;
+    padding-left: 10px;
+	text-color: #bf0d25;
+}
+
+@keyframes animate {
+  
+    0% {
+        content: "SINGER SID SRIRAM"; color: #bf0d25; font-size: 60px; font-weight: bold;
+    }
+	25%{
+	content: "SINGER SID SRIRAM"; color: #2c13ed; font-size: 50px; font-weight: bold;
+	
+	}
+    50% {
+        content: "SINGER SID SRIRAM"; color: #06a118; font-size: 40px; font-weight: bold;
+    }
+
+    75% {
+        content: "SINGER SID SRIRAM"; color: #6309b8; font-size: 35px;  font-weight: bold;
+    }
+	100% {
+	 content: "SINGER SID SRIRAM"; color: #bf0d25; font-size: 30px; font-weight: bold;
+	}
+}
+    </style>
+</head>
+
+<body>
+<video width="400" height="300" controls>
+	<source src="C:\Users\91630\Videos\sid_video.mp4" type="video/mp4"/>
+	Your browser does not support the video tag.
+</video> 
+<div class="myphoto">
+    <figure>
+		<img src="C:\Users\91630\OneDrive - vit.ac.in\Pictures\Saved Pictures\sidsriram.jpg" title="Sid Sriram"></a>
+        <figcaption class="fig">    Fig. 1. Photo <span></span></figcaption>
+    </figure>
+</div>
+</body>
+</html>

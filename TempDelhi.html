@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>20BAI1150-JAHNAVI THONDEPU</title>
+        <script>
+			document.write('<h1>Daily Temperature Recordings of DELHI</h1><br>');
+            var temp=[55,62,68,74,59,45,41,58,60,67,65,78,82,88,91,92,90,93,87,80,78,79,72,68,61,59,55,65];
+			var hot=0;
+            var pleasant=0;
+            var cold=0;
+            for(var i=0;i<28;i++){
+                if(temp[i]>=85){
+                    hot=hot+1;
+                }
+                if(temp[i]>=60 && temp[i]<85)
+                {
+                    pleasant=pleasant+1;
+                }
+                else {
+                    cold=cold+1;
+                }
+            }
+            document.write("<li><b>No of HOT Days : "+hot+"</b></li><br>");
+			document.write("<li><b>No of PLEASANT Days : "+pleasant+"</b></li><br>");
+			document.write("<li><b>No of COLD Days : "+cold+"</b></li><br>");
+        
+            document.write('<table border="3">');
+            document.write('<tr bgcolor="green"><th>Temperature</th><th>Category</th></tr>');
+                for(var i=0; i<28; i++) {	  
+                    if(temp[i]>=85){
+                        document.write('<tr bgcolor="purple"><td>' + temp[i]+ '</td>' +'<td>'+   'HOT' + '</td></tr>');
+                    
+                    }
+                    if(temp[i]>=60 && temp[i]<85)
+                    {
+                        document.write('<tr bgcolor="yellow"><td>' + temp[i]+ '</td>' +'<td>'+ 'PLEASANT' + '</td></tr>');
+                    }
+                    else {
+                        document.write('<tr bgcolor="pink"><td>' + temp[i]+  '</td>' +'<td>'+'COLD' + '</td></tr>');
+                    }
+                }
+                document.write('</table>'); 
+       </script>
+
+    </head>
+</html>

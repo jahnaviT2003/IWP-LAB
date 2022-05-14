@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>20BAI1150-JAHNAVI THONDEPU</title>
+<script>
+function calc(){
+var num=parseInt(document.sample.t.value);
+let prime_no = true;
+if (num === 1) {
+document.write(num+" is neither prime nor composite number");
+}
+else if (num > 1) {
+for (let i = 2; i < num; i++) {
+if (num % i == 0) {
+prime_no = false;
+break;
+}
+}
+if (prime_no) {
+document.write(num+" is a prime number");
+} else {
+document.write(num+" is not a prime number");
+}
+}
+}
+</script>
+</head>
+<body>
+<form name="sample" method="post">
+<h4>Enter the number:</h4>
+<input type="text" name="t">
+<input type="submit" onclick="calc()">
+</form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>20BAI1150-JAHNAVI THONDEPU</title>
+</head>
+<script type="text/javascript">
+function calcTotalCost() {
+  alert("Labour cost is 45 Rs/hr");
+  var hours = prompt("Enter the number of hours worked");
+  var material_cost = prompt("Enter the cost of the material");
+
+  const labour_cost = (parseInt(hours) * 45)
+  const total_charge = (labour_cost + parseInt(material_cost))
+
+  alert ("Labour Cost is " + labour_cost + "\n"+ "Total Charge is " + total_charge);
+}
+</script>
+</head>
+<body>
+<h1>LABOUR COST AND TOTAL CHARGE CALCULATION</h1>
+<input type="button" name="clickbtn" value="Calculate Charges" onclick="calcTotalCost()">
+</body>
+</html>

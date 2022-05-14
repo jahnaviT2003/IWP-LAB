@@ -1,0 +1,237 @@
+
+/*Design of the body backgroun*/
+html body{
+    background-color: #edbedc;
+    font-family:'Montserrat';
+
+}
+
+/*Toggle button on the tipn right */
+.toggle{
+    position: absolute;
+width: 145px;
+height: 70px;
+left: 56px;
+top: 59px;
+
+background: #B83253;
+border-radius: 50px;
+}
+
+/*Middle heading WELCOME TO MOTHEHOOD*/
+.heading{
+
+    position: absolute;
+width: min(1372px,80%,10020vh);
+max-width: 80%;
+height: 20%;
+left: 10%;
+top: 20%;
+
+font-family:'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 120px;
+line-height: 156px;
+text-align: center;
+text-transform: uppercase;
+text-size-adjust: auto;
+
+color: #000000;
+}
+
+
+/*Button register*/
+#reg{
+    position: absolute;
+width: 450px;
+height: 100px;
+left: 36%;
+top: 60%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 55px;
+text-align: center;
+cursor: pointer;
+color: #000000;
+
+background: #c7385b;
+border-radius: 60px;
+
+}
+
+
+/*CSS for Already have a Account Login*/
+.signup{
+    position: absolute;
+width: 601px;
+height: 0%;
+left: 31%;
+top: 75%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #0c0700;
+}
+
+
+/*Font family import*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+.nav111 .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 10px;
+
+  
+  background: #f87d9b;
+  border-radius: 50px;
+  cursor: pointer;
+  
+}
+
+.nav111 .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  
+ 
+  
+}
+
+.nav111 .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.aboutUs{
+	padding-top: 700px;
+	padding-bottom: 100px;
+}
+.img
+{
+	max-width: 100%
+	height: auto;
+	vertical-align: middle;
+	padding-left: 100px;
+}
+.about_img{
+	padding: 12px,24px;
+}
+.text{
+	 position: absolute;
+max-width: 55%;
+height: 50%;
+left: 43%;
+top: 95%;
+
+font-family:'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: left;
+text-transform: none;
+text-size-adjust: auto;
+
+color: #000000;
+}
+
+/*This is the CSS for the bottom Social Media handles*/
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(146, 11, 11, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+  
+  }
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #ff0000;
+  }
+
+  /*Footer class*/
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: #000115;
+  }
+
+  /*Copyright watermark in the footer right side*/
+  .copyright {
+    position: fixed;
+    right:5;
+    bottom:5;
+    color: #000115;
+
+  }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>20BAI1150-JAHNAVI THONDEPU</title>
+<style>
+label{
+	width: 150px;
+	display: inline-block;
+}
+fieldset{
+	width: 600px;
+}
+</style>
+</head>
+<body>
+
+	<fieldset>
+	<legend align="top" style="color:#FF0000"><b>Personal Details</b></legend>
+	<br>
+	<br>
+	<label for="name">Name</label>
+	:&ensp;<input type="text" name="name"  size="value" maxlength="value"><br><br>
+	<label for="pwd">Password</label>
+	:&ensp;<input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+	<label for="email">Email</label>
+	:&ensp;<input type="email" id="email" name="email"><br><br>
+	<label for="gender">Gender</label>
+	:&ensp;<input type="radio" name="gender" value="male"> Male
+	<input type="radio" name="gender" value="female"> Female<br><br>
+	<label for="dob">DOB</label>
+	:&ensp;<input type="date" id="dob" name="dob"><br><br>
+	<label for="mob">Mobile#</label>
+	:&ensp;<input type="tel" id="mob" name="mob"><br><br>
+	</fieldset>
+	<br>
+	<fieldset>
+	<legend align="top" style="color:#FF0000"><b>Educational Qualification</b></legend>
+	<br>
+	<br>
+	<label for="item" >Degree</label>:&ensp;
+	<select name="item" id="item" >
+	<option value="" selected="selected"  ​disabled="disabled">--Select Group--</option>​
+	<optgroup label="UG">
+	<option>BE
+	<option>BTech
+	<option>BSc
+	<option>BA
+	<option>BCA
+	<option>BBA
+	<option>Others
+	</optgroup>
+	<optgroup label="PG">
+	<option>ME
+	<option>MTech
+	<option>MSc
+	<option>MA
+	<option>MCA
+	<option>MBA
+	<option>Others
+	</optgroup>
+	<optgroup label="PhD">
+	<option>Engineering
+	<option>Science
+	<option>Management
+	</optgroup>
+	</select>
+	<label for="course">&ensp;&ensp;Engineering:</label>
+	<select name="course" id="course">
+	<option value="" selected="selected"  ​disabled="disabled">--Select Group--</option>​
+	<optgroup label="UG">
+	<option>CSE
+	<option>ECE
+	<option>EEE
+	<option>CIVIL
+	<option>MECH
+	</optgroup>
+	</select>
+	</fieldset>
+	<br>
+	<label for="hobby">Hobbies</label>
+	:&ensp;<input type="checkbox" id="hobby" name="hobby">Playing Chess
+	<input type="checkbox" id="hobby" name="hobby">Reading Books<br><br>
+	<label for="favcolor">Favourite Color:</label>
+	:&ensp;<input type="color" id="favcolor" name="favcolor" value="#000000"><br><br>
+	<label for="addr"><font color="red"><b>Address</b></font></label><br><br>
+	<textarea name="addr" id="addr" rows="6" cols="82">
+	</textarea><br><br>
+	<form>
+	<label for="myfile">Attach Resume</label>
+	:&ensp;<input type="file" name="myfile">
+	<input type="Submit">
+	</form>
+	
+</body>
+</html>

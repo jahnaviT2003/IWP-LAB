@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>20BAI1150-JAHNAVI THONDEPU</title>
+</head>
+<body>
+<table style="border: 2px solid #f78707; border-collapse: collapse; width: 20%">          
+                <tr>
+                <th style="color:azure; background-color:#f78707; border:  1px solid #f78707; border-collapse: collapse; float:left;">
+                    LEARN DATA SCIENCE!
+                </th>
+                </tr>
+                <tr>
+                  <td>
+                    <li  style=" color: gray; padding-left: 20px"><span style="color:#3281a8"><b>Unlimited jobs</b></span></li>
+                  </td>
+                </tr>
+                <tr>
+                    <td>
+                      <li style="color: gray; padding-left: 20px"><span style="color:#3281a8"><b>Best benifits anywhere</b></span></li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      <li style="color: gray; padding-left: 20px"><span style="color:#3281a8"><b>Call now for an appointment</b></span></li>
+                    </td>
+                </tr>
+        </table>
+</body>
+</html>

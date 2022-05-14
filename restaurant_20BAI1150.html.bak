@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+20BAI1150-JAHNAVI THONDEPU
+</title>
+<style>
+table,th,td {
+border : 1px solid black;
+border-collapse: collapse;
+}
+th,td {
+padding: 5px;
+}
+</style>
+</head>
+<body>
+<h4> RESTAURANTS LIST</h4>
+<button type="button" onclick="loadDoc()">CLICK ME!</button>
+<br>
+<table id="sam"></table>
+<script>
+function loadDoc() {
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+if (this.readyState == 4 && this.status == 200) {
+myFunction(this);
+}
+};
+xhttp.open("GET","restaurant_20BAI1150.xml", true);
+xhttp.send();
+}
+function myFunction(xml) {
+var i;
+var xmlDoc = xml.responseXML;
+var table="<tr><th>Name</th><th>Cuisine</th><th>Address</th></tr>";
+var x = xmlDoc.getElementsByTagName("restaurant");
+for (i = 0; i <x.length; i++) {
+table += "<tr><td>"+
+x[i].getAttribute("name")+"</td><td>" +
+x[i].getElementsByTagName("cuisine")[0].childNodes[0].nodeValue +"</td><td>" +
+x[i].getElementsByTagName("address")[0].childNodes[0].nodeValue +"</td></tr>";
+}
+document.getElementById("sam").innerHTML = table;
+}
+</script>
+</body>
+</html>

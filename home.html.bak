@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            Home
+        </title>
+        <link rel="stylesheet" href="stylesheet_home.css">
+	    
+    </head>
+    <body>
+        <div>
+
+        </div>
+        <nav>
+            <ul>
+                <div class="rectangle"><a href="#">Sign Up</a></div>
+                <div class="rectangle"><a href="#">Login</a></div>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Home</a></li>
+              </ul>
+
+        </nav>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>20BAI1150-JAHNAVI THONDEPU</title>
+<script type="text/javascript">
+function calcCost() {
+adult = document.getElementById(“t1”);
+child = document.getElementById(“t2”);
+var total= adult*10 + child*5;
+document.getElementById(“t3”).value = total;
+}
+</script>
+</head>
+<body>
+<form name="mainForm">
+<h1>TICKET BOOTH</h1>
+Adults (&#8377; 10 each)<input type="text" name=“text1” id=“t1” /> 
+<br/>
+Children(&#8377; 5 each)<input type="text" name=“text2” id=“t2” /> 
+<br/>
+<input type="button" value="Total" onclick="calcCost()" />
+<input type="text" name=“text3” id=“t3” /> 
+</form>
+</body>
+</html>

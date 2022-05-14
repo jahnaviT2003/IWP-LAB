@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>20BAI1150-JAHNAVI THONDEPU</title>
+		<script>
+            function calc() {
+                value = parseInt(document.primeno_form.no.value);
+                
+                document.write('<h1>Prime Numbers between 1 and '+value+'</h1><br>');
+                document.write('<table border="3">');
+                document.write('<tr bgcolor="pink"><th>Prime Numbers</th></tr>');
+                
+                for(var i=0; i<=value; i++) {
+                    var count=0; 
+                    var num;	  
+                    for(num = i; num >= 1; num--) {
+                        if(i%num==0) {
+ 		                    count = count + 1;
+	                    }
+	                }
+                    if (count ==2) {
+                        document.write('<tr bgcolor="yellow" align="center" bordercolor="red" border-weight="2"><td bordercolor="red">' + i + '</td></tr>');
+                    }
+                }
+                document.write('</table>');
+            }  
+        </script>
+    </head>
+    <body>
+        <form name="primeno_form">
+		    <h1>PRIME NUMBER GENERATOR</h1>
+            Enter the Value : <input type="text" name="no"><br><br>
+            <input type="button" value="Submit" onclick="calc()"><br>
+        </form>
+    </body>
+</html>
+
